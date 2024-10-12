@@ -1,0 +1,282 @@
+/* Importación de fuente Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Inicio esquinas del contenedor */
+
+.esquina1 {
+    width: 15px;
+    height: 15px;
+    border-right: 1.5px solid #368b7e;
+    border-bottom: 1.5px solid #368b7e;
+    position: relative;
+    right: 35px;
+    bottom: 18px;
+    margin-bottom: -15px;
+}
+
+.esquina2 {
+    width: 15px;
+    height: 15px;
+    border-right: 1.5px solid #368b7e;
+    border-bottom: 1.5px solid #368b7e;
+    rotate: 270deg;
+    position: relative;
+    right: 35px;
+    top: 1091px;
+    margin-bottom: -15px;
+}
+
+.esquina3 {
+    width: 15px;
+    height: 15px;
+    border-right: 1.5px solid #368b7e;
+    border-bottom: 1.5px solid #368b7e;
+    rotate: 90deg;
+    position: relative;
+    left: 778px;
+    bottom: 18px;
+    margin-bottom: -15px;
+}
+
+.esquina4 {
+    width: 15px;
+    height: 15px;
+    border-right: 1.5px solid #368b7e;
+    border-bottom: 1.5px solid #368b7e;
+    rotate: 180deg;
+    position: relative;
+    left: 778px;
+    top: 1091px;
+    margin-bottom: -15px;
+}
+
+/* Fin esquinas del contenedor */
+
+.container {
+    border: 1.5px solid #368b7e;
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 3px 20px;
+}
+
+/* Inicio Columnas divididas Contacto y Educacion */
+
+.content {
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.contentLeft,
+.contentRight {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+/* Fin Columnas divididas Contacto y Educacion */
+
+/* Titulo */
+
+h1 {
+    color: #81c4ba;
+    display: grid;
+    text-align: center;
+}
+
+/* Titulos h2 */
+
+h2 {
+    font-size: 21px;
+    color: #368b7e;
+}
+
+p {
+    margin-bottom: 20px;
+    text-wrap: balance;
+}
+
+/* Span Ingeniero de Software */
+
+span {
+    font-size: 21px;
+    display: grid;
+    text-align: center;
+    bottom: 12px;
+    position: relative;
+}
+
+/* Inicio Links */
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #368b7e;
+}
+
+/* Fin Links */
+
+/* Contenedor de foto */
+
+.photo {
+    display: flex;
+    justify-content: center;
+}
+
+/* Circulo de foto */
+
+.circle {
+    max-width: 100%;
+    width: 12.5rem;
+    height: 12.5rem;
+    display: block;
+    border: 12px solid #368b7e;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/* Foto */
+
+img {
+    max-width: 100%;
+    bottom: 18px;
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 15px;
+    border-left: 3px solid #81c4ba;
+}
+
+/* Inicio Puntos decorativos de Educación y Experiencia */
+
+.punto {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color: #81c4ba;
+    border-radius: 50%;
+    right: 21px;
+    margin-bottom: -10px;
+}
+
+.punto2 {
+    width: 10px;
+    height: 10px;
+    background-color: #81c4ba;
+    border-radius: 50%;
+    position: relative;
+    right: 21px;
+    top: 63px;
+    margin-bottom: -10px;
+}
+
+/* Fin Puntos decorativos de Educación y Experiencia */
+
+ol {
+    list-style-type: none;
+}
+
+.links {
+    font-size: 15px;
+}
+
+/* Iconos */
+
+.fa {
+    margin-right: 15px;
+    padding: 10px 0;
+    font-size: 27px;
+    color: #368b7e;
+}
+
+ul li {
+    color: #81c4ba;
+    font-size: 15.5px;
+    position: relative;
+}
+
+dl {
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+dl dd {
+    margin-bottom: 15px;
+}
+
+/* Texto de Profesión */
+
+.profesion {
+    font-size: 12px;
+}
+
+dl dt {
+    font-weight: 700;
+}
+
+/* Inicio Responsive */
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .contentLeft,
+    .contentRight {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .puntoProf {
+        margin-bottom: 0;
+    }
+
+}
+
+@media (max-width: 417px) {
+    .punto, .punto2 {
+        width: 0;
+        height: 0;
+    }
+}
+
+@media (max-width: 221px) {
+    .circle {
+        border: 0;
+        border-radius: 0%;
+    }
+
+    ul {
+        border-left: 0;
+    }
+}
+/* Fin Responsive */

@@ -1,248 +1,198 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Content-type" content="application/javascript" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hoja de vida</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="Portfolio de Andrés García, 3 años de experiencia 
+        como ingeniero de software"
     />
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/modals.css">
-    <link rel="stylesheet" href="./css/slider.css">
-    <link rel="stylesheet" href="./css/cards.css">
-</head>
+    <meta name="robots" content="index, follow" />
 
-<body>
-    <div class="contenedor">
-        <header>
-            <a href="#" class="logo">Hoja de Vida</a>
-            <nav class="menu">
-                <a href="#">Inicio</a>
-                <a href="#acerca">Acerca</a>
-                <a href="#experiencia">Experiencia</a>
-                <a href="#educacion">Educación</a>
-                <a href="#habilidades">Habilidades</a>
-                <a href="#intereses">Intereses</a>
-                <a href="#contacto">Contacto</a>
-            </nav>
-        </header>
+    <meta name="theme-color" content="#09f" />
+    <!-- FIN SEO -->
 
-        <main>
-            <div class="contenedor-img">
-                <img src="./img/foto.jpg" alt="Foto Perfil">
-            </div>
-            <div class="contenedor-texto">
-                <h2 class="titulo"><span class="typed"></span></h2>
+    <!-- OPEN GRAPH -->
+    <meta property="og:title" content="Portfolio de un ingeniero de software" />
+    <meta
+      property="og:description"
+      content="Portfolio de Andrés García, 3 años de 
+        experiencia como ingeniero de software"
+    />
+    <meta property="og:image" content="images/foto.jpg" />
+    <meta
+      property="og:image:alt"
+      content="Una fotografía de Andrés Estiven García Páez"
+    />
+    <!-- FIN OPEN GRAPH -->
 
-                <p>19 años de edad, desarrollador junior. Tecnólogo Análisis y Desarrollo de Sistemas de Información.
+    <title>
+      👨‍💻 Hoja de Vida Andrés García - Ingeniero de Software con 3 años de
+      experiencia
+    </title>
+    <link rel="icon" type="image/jpg" href="images/foto.jpg" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="esquina1"></div>
+        <div class="esquina2"></div>
+        <div class="esquina3"></div>
+        <div class="esquina4"></div>
+        <div class="photo">
+          <div class="circle">
+            <img
+              id="photo-image"
+              title="Foto de Andrés García"
+              alt="Una fotografía de Andrés García mirando al frente"
+              src="images/foto.jpg"
+            />
+          </div>
+        </div>
+        <h1>Andrés García</h1>
+        <span>Ingeniero de Software</span>
+        <section>
+          <article>
+            <header>
+              <h2>Acerca de mí</h2>
+            </header>
+            <p>
+              Soy un ingeniero de software con más de 3 años de experiencia en
+              el desarrollo de aplicaciones en la nube y soluciones
+              tecnológicas.
+            </p>
+            <p>
+              Con conocimientos en HTML, XML, CSS3, JavaScript, SQL, JSON, POO,
+              PHP, Angular, Python, Modelo MVC, Git, GitHub, Node.js, librería
+              jsPDF, API Rest, Postman, SAPUI5, SAP HANA 2.0, servicios xsjs,
+              procedimientos almacenados, vistas calculadas en SAP.
+            </p>
+          </article>
+        </section>
+        <div class="content">
+          <div class="contentLeft">
+            <section>
+              <h2>Contacto</h2>
+              <ol>                
+                <li><i class="fa fa-phone"></i><a href="https://wa.me?phone=573228466420&text=Hola Andrés," target="_blank">(57) 322-846-6420</a></li>
+                <li><i class="fa fa-envelope"></i><a href="mailto:andrespaez873@gmail.com?subject=Interés laboral">andrespaez873@gmail.com</a></li>
+                <li style="position: relative; left: 5px;"><i class="fa fa-location-dot"></i>Calle 136A Sur No.14-73 Bogotá DC</li>
+              </ol>
+            </section>
+            <section>
+              <article>
+                <header>
+                  <h2>Habilidades</h2>
+                </header>
+                <p>
+                  Me considero una persona con muy buena actitud para trabajar
+                  en equipo e individual, responsable, honesto, puntual,
+                  creativo, disciplinado y proactivo.
                 </p>
-
-                <a href="https://www.linkedin.com/in/andres-estiven-garcia-paez-0034161b0/" target="_blank" class="btn-link activo">Linkedin</a>
-                <a href="https://github.com/AndresGarcia873" target="_blank" class="btn-link">GitHub</a>
-            </div>
-
-        </main>
-        <div id="acerca"><br>
-            <div class="contenedor-texto">
-                <h2 class="titulo"><i class="nombre">Acerca de mí</i></h2>
-                <p>Me considero una persona con muy buena actitud para trabajo en equipo e individual, responsable, honesto, puntual, creativo, disciplinado y proactivo.<br> Soy una persona muy interesada en aprender nuevas tecnologías de diferentes medios,
-                    y me gusta enfrentarme a nuevos retos y resolverlos de la mejor manera y de una manera creativa.<br>
+                <p>
+                  Soy una persona muy interesada en aprender nuevas tecnologías
+                  de diferentes medios.
                 </p>
-            </div>
+              </article>
+            </section>
+            <section>
+              <header>
+                <h2>Idiomas</h2>
+              </header>
+              <ol>
+                <li>Ingles B1</li>
+                <li>Español Nativo</li>
+              </ol>
+            </section>
+          </div>
+          <div class="contentRight">
+            <section>
+              <header>
+                <h2>Educación</h2>
+              </header>
+              <ul>
+                <div class="punto"></div>
+                <div class="punto2"></div>
+                <li>2007 - 2018</li>
+                <dl>
+                  <dt>Colegio Francisco Antonio Zea</dt>
+                  <dd>Bachiller</dd>
+                </dl>
+              </ul>
+              <ul>
+                <div class="punto"></div>
+                <div class="punto2 puntoProf" style="top: 75px;"></div>
+                <li>2019 - 2021</li>
+                <dl>
+                  <dt>Servicio Nacional de Aprendizaje</dt>
+                  <dd class="profesion">
+                    Tecnólogo Análisis y Desarrollo de sistemas de información
+                  </dd>
+                </dl>
+              </ul>
+              <ul>
+                <div class="punto"></div>
+                <div class="punto2"></div>
+                <li>2021 - 2024</li>
+                <dl>
+                  <dt>Politécnico Grancolombiano</dt>
+                  <dd>Ingeniero de Software</dd>
+                </dl>
+              </ul>
+            </section>
+            <section>
+              <header>
+                <h2>Experiencia</h2>
+              </header>
+              <ul>
+                <div class="punto"></div>
+                <div class="punto2"></div>
+                <li>OCT 2020 - ABR 2021</li>
+                <dl>
+                  <dt>Empresa World Office</dt>
+                  <dd>Desarrollador Junior Angular</dd>
+                </dl>
+              </ul>
+              <ul>
+                <div class="punto"></div>
+                <div class="punto2"></div>
+                <li>NOV 2021 - 2024 Presente</li>
+                <dl>
+                  <dt>Empresa MQA SA</dt>
+                  <dd>Consultor BTP</dd>
+                </dl>
+              </ul>
+            </section>
+            <section>
+              <header>
+                <h2>Enlaces de Interés</h2>
+              </header>
+              <ol class="links">
+                <li>
+                  GitHub:
+                  <a href="https://github.com/AndresGarcia873" target="_blank"
+                    >github.com/AndresGarcia873</a
+                  >
+                </li>
+                <li>
+                  Linkedin:
+                  <a
+                    href="https://www.linkedin.com/in/andr%C3%A9s-estiven-garc%C3%ADa-p%C3%A1ez-0034161b0/"
+                    target="_blank"
+                    >www.linkedin.com/in/andrés-estiven-garcía-páez-0034161b0/</a
+                  >
+                </li>
+              </ol>
+            </section>
+          </div>
         </div>
-        <div id="experiencia"><br>
-            <div class="contenedor-texto">
-                <h2 class="titulo"><i class="nombre">Experiencia</i></h2>
-                <p>Actualmente mi experiencia como desarrollador es de 6 meses como desarrollador junior en angular, desarrollando y colaborando para la empresa World Office Colombia.<br> En esta empresa colabore en el desarrollo frontend, solucionando bugs
-                    visuales, creando requerimientos de frontend dependiendo de los requisitos de los clientes, optimizando componentes de la pagina para poder optimizar la velocidad de respuesta del servidor, estuve diseñando y codificando informes contables
-                    para los clientes, creando nuevos menús a la navegación del sitio, recibiendo datos del backend para poder filtrarlos y así mostrarlos en el frontend de una mejor manera, además en esta empresa aprendí mucho Angular, HTML, CSS, JavaScript,
-                    AWS, Git, entre otras tecnologías. </p>
-            </div>
-        </div>
-        <div id="educacion"><br>
-            <div class="contenedor-texto">
-                <h2 class="titulo"><i class="nombre">Educación</i></h2>
-                <p>Soy bachiller del colegio Francisco Antonio Zea de Usme, después de terminar mi estudio en el colegio empece un tecnólogo en el Servicio Nacional de Aprendizaje (SENA), hay estudie el Tecnólogo en Análisis y desarrollo de sistemas de información.
-                    Además de esto tuve la oportunidad de hacer un Bootcamp de python presencial en platzi además de los siguientes cursos: </p>
-                <!-- <img src="https://static.platzi.com/commons/assets/image/isotipoPlatzi093f27a2fb00922bb105.png" alt="Logo Platzi" title="Logo Platzi" style="height: 25px;"> -->
-                <!-- <img src="https://static.platzi.com/commons/assets/image/logotipo-platzie69328f33899695e31fa.png" alt="Logo Platzi" title="Logo Platzi" style="height: 25px;"> -->
-                <ul class="lista">
-                    <li>
-                        <span>Curso fundamentos de bases de datos</span>
-                        <input type="checkbox" id="btn-modal">
-                        <label for="btn-modal" class="lbl-modal">Ver Diploma</label>
-                        <div class="modal">
-                            <div class="container">
-                                <header>Fundamentos de Bases de Datos</header>
-                                <label for="btn-modal">X</label>
-                                <div class="contenido">
-                                    <img src="img/diplomas/db.jpg" alt="Fundamentos de Bases de Datos" title="Fundamentos de Bases de Datos">
-                                </div>
-                            </div>
-                        </div>
-                    </li><br>
-                    <li>
-                        <span>Curso de Python</span>
-                        <input type="checkbox" id="btn-modal1">
-                        <label for="btn-modal1" class="lbl-modal1">Ver Diploma</label>
-                        <div class="modal1">
-                            <div class="container">
-                                <header>Python</header>
-                                <label for="btn-modal1">X</label>
-                                <div class="contenido">
-                                    <img src="img/diplomas/python.jpg" alt="Python" title="Python">
-                                </div>
-                            </div>
-                        </div>
-                    </li><br>
-                    <li>
-                        <span>Curso de PHP</span>
-                        <input type="checkbox" id="btn-modal2">
-                        <label for="btn-modal2" class="lbl-modal2">Ver Diploma</label>
-                        <div class="modal2">
-                            <div class="container">
-                                <header>PHP</header>
-                                <label for="btn-modal2">X</label>
-                                <div class="contenido">
-                                    <img src="img/diplomas/php.jpg" alt="PHP" title="PHP">
-                                </div>
-                            </div>
-                        </div>
-                    </li><br>
-                    <li>
-                        <span>Curso de Git y GitHub</span>
-                        <input type="checkbox" id="btn-modal3">
-                        <label for="btn-modal3" class="lbl-modal3">Ver Diploma</label>
-                        <div class="modal3">
-                            <div class="container">
-                                <header>Git y GitHub</header>
-                                <label for="btn-modal3">X</label>
-                                <div class="contenido">
-                                    <img src="img/diplomas/git.jpg" alt="Git y GitHub" title="Git y GitHub">
-                                </div>
-                            </div>
-                        </div>
-                    </li><br>
-                    <li>
-                        <span>Curso de BootCamp</span>
-                        <input type="checkbox" id="btn-modal4">
-                        <label for="btn-modal4" class="lbl-modal4">Ver Diploma</label>
-                        <div class="modal4">
-                            <div class="container">
-                                <header>BootCamp</header>
-                                <label for="btn-modal4">X</label>
-                                <div class="contenido">
-                                    <img src="img/diplomas/bootcamp.jpg" alt="BootCamp" title="BootCamp">
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul><br><br>
-                <ul class="lista">
-                    <li>
-                        <span>Diploma Bachiller Académico</span>
-                        <input type="checkbox" id="btn-modal5">
-                        <label for="btn-modal5" class="lbl-modal5">Ver Diploma</label>
-                        <div class="modal5">
-                            <div class="container">
-                                <header>Bachiller Académico</header>
-                                <label for="btn-modal5">X</label>
-                                <div class="contenido">
-                                    <img src="img/diplomas/bachiller.jpg" alt="Bachiller Académico" title="Bachiller Académico">
-                                </div>
-                            </div>
-                        </div>
-                    </li><br>
-                    <li>
-                        <span>Diploma Tecnólogo</span>
-                        <input type="checkbox" id="btn-modal6">
-                        <label for="btn-modal6" class="lbl-modal6">Ver Diploma</label>
-                        <div class="modal6">
-                            <div class="container">
-                                <header>Tecnólogo</header>
-                                <label for="btn-modal6">X</label>
-                                <div class="contenido">
-                                    <img src="img/diplomas/tecnologo.jpg" alt="Tecnólogo" title="Tecnólogo">
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div id="habilidades"><br>
-            <div class="contenedor-texto">
-                <h2 class="titulo"><i class="nombre">Habilidades</i></h2>
-                <p>Actualmente mis habilidades en el desarrollo son las siguientes:</p>
-                <ul class="lista">
-                    <li><img src="img/lenguajes/html.png" style="width: 100px;" alt="HTML5">
-                        <!--<a href="">Enlace página con HTML5</a>--></li>
-                    <li><img src="img/lenguajes/css.png" style="width: 90px;" alt="CSS3">
-                        <!--<a href="">Enlace página con estilos CSS3</a>--></li>
-                    <li><img src="img/lenguajes/js.png" style="width: 120px;" alt="JS">
-                        <!--<a href="">Enlace página con JavaScript</a>--></li>
-                    <li><img src="img/lenguajes/angular.png" style="width: 100px;" alt="Angular">
-                        <!--<a href="">Enlace página con Angular</a>--></li>
-                    <li><img src="img/lenguajes/react.png" style="width: 100px;" alt="React">
-                        <!--<a href="">Enlace página con React</a>--></li>
-                    <li><img src="img/lenguajes/php.png" style="width: 120px;" alt="PHP">
-                        <!--<a href="">Enlace página con PHP</a>--></li>
-                </ul>
-            </div>
-        </div>
-        <div id="intereses"><br>
-            <div class="contenedor-texto">
-                <h2 class="titulo"><i class="nombre">Intereses</i></h2>
-                <p>Mis intereses cuando de programación no se habla son leer, hacer ejercicio, caminar, jugar vóleibol jugar baloncesto, resolver problemas mentales como sudokus o cubos de Rubik, jugar videojuegos, ver películas, etc. </p>
-                <p>Algunos de los libros que he leído y me han parecido bastante interesante son los siguientes:</p>
-                <div class="container-slider">
-                    <div class="slider" id="slider">
-                        <div class="slider-section"><img src="img/libros/libro1.jpg" alt="El Código Da Vinci" class="slider-img"></div>
-                        <div class="slider-section"><img src="img/libros/libro2.jpg" alt="Angeles y Demonios" class="slider-img"></div>
-                        <div class="slider-section"><img src="img/libros/libro3.jpg" alt="Origen" class="slider-img"></div>
-                        <div class="slider-section"><img src="img/libros/libro4.jpg" alt="Satanás" class="slider-img"></div>
-                        <div class="slider-section"><img src="img/libros/libro5.jpg" alt="Paranormal Colombia" class="slider-img"></div>
-                        <div class="slider-section"><img src="img/libros/libro6.jpg" alt="Una Escalera al Cielo" class="slider-img"></div>
-                        <div class="slider-section"><img src="img/libros/libro7.jpg" alt="Metamorfosis" class="slider-img"></div>
-                    </div>
-                    <div class="slider-btn slider-btn-right" id="btn-right">&#62;</div>
-                    <div class="slider-btn slider-btn-left" id="btn-left">&#60;</div>
-                </div>
-            </div>
-        </div>
-        <div id="contacto"><br>
-            <div class="contenedor-texto">
-                <h2 class="titulo"><i class="nombre">Contacto</i></h2>
-                <div class="container-cards">
-                    <div class="card">
-                        <img src="img/cards/gmail.png" alt="Gmail" title="Gmail">
-                        <h4>Gmail</h4>
-                        <p>Contacto vía correo electrónico</p>
-                        <a href="mailto:andrespaez873@gmail.com?subject=Interés laboral">andrespaez873@gmail.com</a>
-                    </div>
-                    <div class="card">
-                        <img src="img/cards/pdf.svg" alt="Hoja de Vida" title="Hoja de Vida">
-                        <h4>Hoja de vida</h4>
-                        <p>Para más información descargue hoja de vida aquí</p><br>
-                        <a href="archivos/cv.pdf" class="button type1" download="Hoja de Vida Andres Garcia" title="Descargar CV"><i class="fa fa-download" aria-hidden="true"></i> Descargar CV</a>
-                    </div>
-                    <div class="card">
-                        <img src="img/cards/whatsapp.png" alt="WhatsApp" title="WhatsApp">
-                        <h4>WhatsApp</h4>
-                        <p>Contacto vía WhatsApp</p>
-                        <a href="https://wa.me/573228466420" target="_blank">3228466420</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="./js/main.js"></script>
-    <script src="./js/slider.js"></script>
-</body>
-
+      </div>
+    </main>
+  </body>
 </html>
